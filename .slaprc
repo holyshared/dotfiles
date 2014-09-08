@@ -166,7 +166,7 @@ number = "{green-fg}{bold}"
 string = "{green-fg}{bold}"
 regexp = "{green-fg}{bold}"
 literal = "{green-fg}{bold}"
-comment = "{white-bg}{black-fg}"
+comment = "{black-bg}{white-fg}"
 header = "{bold}"
 strong = "{bold}"
 code = "{green-fg}"
@@ -185,6 +185,15 @@ currentLine = "{white-bg}{magenta-fg}{bold}"
 
 [fileBrowser]
 selectedBg = "blue"
+itemFg = "white"
+itemBg = "black"
+itemBlink = "black"
+
+[dirBrowser]
+selectedBg = "blue"
+itemFg = "white"
+itemBg = "black"
+itemBlink = "black"
 
 [field.style]
 currentLine = "{underline}"
