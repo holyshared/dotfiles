@@ -28,8 +28,11 @@ filetype plugin indent on
 " this will conveniently prompt you to install them.
 NeoBundleCheck
 
+set rtp+=/path/to/jsx.vim
+
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neomru.vim'
+NeoBundle 'git://github.com/jsx/jsx.vim.git'
 
 colorscheme molokai
 syntax on
