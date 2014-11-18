@@ -47,3 +47,6 @@ set list
 set hlsearch
 set showmatch
 set visualbell
+
+imap <c-j> <esc><jis_eissuu>
+
