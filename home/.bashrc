@@ -1,4 +1,4 @@
-source $(brew --prefix nvm)/nvm.sh
+export PATH=$HOME/.nodebrew/current/bin:$PATH;
 
 function _update_ps1() {
   export PS1="$(~/powerline-shell.py $? 2> /dev/null)"
